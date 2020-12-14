@@ -1,0 +1,69 @@
+body {
+  background-image: url(../img/Fondo2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section,
+.section__cards {
+  background-color: white;
+  width: 85%;
+  height: auto;
+  margin: auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+.section__cards {
+  display: flex;
+  flex-wrap: wrap;
+  background: #f2f2f2;
+  box-shadow: 1px 2px rgba(65, 63, 63, 0.6), 2px 3px rgba(65, 63, 63, 0.6),
+    3px 4px rgba(65, 63, 63, 0.6);
+}
+
+.section__title {
+  font-family: calibri;
+  font-size: 3rem;
+  text-align: center;
+  text-shadow: 5px 5px #f2f2f2;
+}
+
+.section__icon {
+  width: 6rem;
+  float: left;
+}
+
+.section__cards-card {
+  min-width: 20%;
+  min-height: 6rem;
+  padding: 1rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 1px 2px rgba(65, 63, 63, 0.6), 2px 3px rgba(65, 63, 63, 0.6);
+  font-family: calibri;
+}
+
+.section__card-cardContainer {
+  display: flex;
+}
+
+.section__card-img {
+  width: 14rem;
+  height: 14rem;
+  margin-right: 1rem;
+  border: 1px solid white;
+}
+.section__card-caracteristicas {
+  width: 10rem;
+  height: 14rem;
+}
+
+.section__card-tittle {
+  text-align: center;
+}
